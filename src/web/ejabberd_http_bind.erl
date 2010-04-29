@@ -32,7 +32,12 @@
 	 change_shaper/2,
 	 monitor/1,
 	 close/1,
-	 process_request/2]).
+	 process_request/2,
+	 start/4,
+	 http_get/2,
+	 http_put/7,
+	 handle_session_start/8,
+	 prepare_response/4]).
 
 -include("ejabberd.hrl").
 -include("jlib.hrl").
